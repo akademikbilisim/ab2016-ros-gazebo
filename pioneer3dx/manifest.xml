@@ -1,0 +1,20 @@
+<package>
+  <description brief="pioneer3dx">
+
+     pioneer3dx
+
+  </description>
+  <author>Ahmet</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pioneer3dx</url>
+  <depend package="rospy"/>
+  <depend package="gazebo_ros"/>
+  <depend package="sensor_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="tf"/>
+
+</package>
+
+
