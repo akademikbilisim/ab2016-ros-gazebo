@@ -14,7 +14,12 @@
         <arg name="robot_position" value="-x 0.0 -y 0.0 -z 0.01 -R 0 -P 0 -Y -1.57" />
     </include>
 
-    <node pkg="tf" type="static_transform_publisher" name="base_to_odom_r1"
-        args="0.0 0.0 0.0 0.0 0.0 0.0 base_link r1/odom 200" />
+    <node pkg="tf" type="static_transform_publisher" name="base_to_odom_p3dx"
+        args="0.0 0.0 0.0 0.0 0.0 0.0 base_link p3dx/odom 200" />
+        
+    <node pkg="p3dx_test" type="teleop.py" name="keyboard_control" />
+    
+    <node pkg="rviz" type="rviz" name="robot_visual" 
+    args="-d $(find p3dx_test)/rviz/visual.rviz" />
 
 </launch>

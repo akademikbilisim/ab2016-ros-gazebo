@@ -1,0 +1,15 @@
+<package>
+  <description brief="chatter">
+
+     chatter
+
+  </description>
+  <author>Ahmet</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/chatter</url>
+  <depend package="rospy"/>
+
+</package>
+
+
